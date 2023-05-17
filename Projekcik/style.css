@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    max-width: 600px;
+    border-radius: 5px;
+    width: 600px;
+    padding: 20px;
+    background: white;
+    margin: 100px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.flex {
+    display: flex;
+    gap: 1.5em;
+    margin-bottom: 15px;
+}
+
+
+
